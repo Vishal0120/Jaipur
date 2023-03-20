@@ -20,7 +20,7 @@ import automaticAttedance
 
 engine = pyttsx3.init()
 engine.say("Welcome!")
-engine.say("Please browse through your options...")
+engine.say("Please browse through your options..")
 engine.runAndWait()
 
 
@@ -30,14 +30,14 @@ def text_to_speech(user_text):
     engine.runAndWait()
 
 
-haarcasecade_path = "D:\\Attendance-Management-system-using-face-recognition-master\\haarcascade_frontalface_default.xml"
+haarcasecade_path = "haarcascade_frontalface_default.xml"
 
 trainimagelabel_path = (
-    "D:\\Attendance-Management-system-using-face-recognition-master\\TrainingImageLabel\\Trainner.yml"
+    "TrainingImageLabel\\Trainner.yml"
 )
-trainimage_path = "D:\\Attendance-Management-system-using-face-recognition-master\\TrainingImage"
+trainimage_path = "TrainingImage"
 studentdetail_path = (
-    "D:\\Attendance-Management-system-using-face-recognition-master\\StudentDetails\\studentdetails.csv"
+    "StudentDetails\\studentdetails.csv"
 )
 attendance_path = "D:\\Attendance-Management-system-using-face-recognition-master\\Attendance"
 
